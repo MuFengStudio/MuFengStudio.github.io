@@ -31,8 +31,8 @@ var app = createApp({
   data: () => {
     return {
       pathname: window.location.pathname,
-      name: 'Aide Lua Pro',
-      description: '一款依赖 Aide 的 Lua 编辑器',
+      name: '猫币4',
+      description: '一个应用',
       menus: [
         {
           title: '首页',
@@ -90,57 +90,31 @@ var app = createApp({
           src: 'images/screenshots/screenshot_lag.webp'
         }
       ],
-      developers: [
-        {
-          name: 'Eddie',
-          summary: '软件&网站开发',
-          avatar: 'https://q1.qlogo.cn/headimg_dl?dst_uin=2140125724&spec=100'
-        },
-        {
-          name: '0047ol',
-          summary: '网站开发',
-          avatar: 'https://q1.qlogo.cn/headimg_dl?dst_uin=2088343717&spec=100'
-        }
-      ],
       contact: [
         {
           title: '电子邮件',
           icon: 'email-outline',
-          href: 'mailto:jesse205@qq.com',
+          href: 'mailto:1785553865@qq.com',
           tooltip: {
-            content: '邮箱：jesse205@qq.com'
-          }
-        },
-        {
-          title: 'QQ频道',
-          icon: 'account-group-outline',
-          href: 'https://pd.qq.com/s/n51c4k',
-          tooltip: {
-            content: '频道号：t37c1u1nmw'
+            content: '邮箱：1785553865@qq.com'
           }
         },
         {
           title: '体验群',
           icon: 'account-group-outline',
-          href: 'https://jq.qq.com/?_wv=1027&k=aKHQdqlL',
           tooltip: {
-            content: '群号：628045718'
+            content: '群号：894748324'
           }
         },
         {
           title: '内测群',
           icon: 'account-group-outline',
-          href: 'https://jq.qq.com/?_wv=1027&k=Zuzh1ypf',
           tooltip: {
-            content: '群号：680850455'
+            content: '群号：894748324'
           }
         }
       ],
       links: [
-        {
-          name: 'AIDE Pro',
-          href: 'https://www.aidepro.top/'
-        },
         {
           name: 'MDUI',
           href: 'https://www.mdui.org/'
@@ -149,18 +123,6 @@ var app = createApp({
           name: 'VuePress',
           href: 'https://vuepress.vuejs.org/zh/'
         },
-        {
-          name: 'Edde 互联',
-          href: 'https://jesse205.github.io/'
-        },
-        {
-          name: '哈兔Box',
-          href: 'https://jesse205.github.io/hellotool/'
-        },
-        {
-          name: '云储',
-          href: 'https://yunchu.cxoip.com/'
-        }
       ],
       isTop: true,
     }
